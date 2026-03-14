@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styl[1].Css">
+</head>
+<body>
+    <div class="tete">
+            <div class="header">Location et Vente</div>
+            <div id="head">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#head">Home</a></li>
+                        <li><a href="#ser">Service</a></li>
+                        <li><a href="#dif">Location</a></li>
+                        <li><a href="#why">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <div class="search"></div>
+                    </ul>
+                </div>
+            </div>
+            <div class="image">
+                <img src="G:\DCIM\K.jpg" alt="">
+            </div>
+        </div>
+        <div class="text">Notre service</div>
+        <div id="ser">
+            <div class="un">Vente</div>
+            <div class="un">location</div>
+            <div class="un">destination</div>
+            <div class="un">payment</div>
+        </div>
+        <div class="contedeux">
+            <div class="deux">
+                <div class="dr">
+                    <div>Notre paiment de Location</div>
+                    <div>Rejoint nous</div>
+                     <div class="pp"></div>
+                     <div class="pp"></div>
+                     <button>JOINDRE</button>
+                </div>
+                <div class="drr">
+                    <div></div>
+                    <div>Notre payment de vente</div>
+                     <div class="pp">click joindre pour notre payment</div>
+                     <div class="pp">Rejoint nous</div>
+                     <button class="btn">JOINDRE</button>
+                </div>
+            </div>
+        </div>
+        <div class="text">de quels type choisissez vous?</div>
+        <div id="dif">
+            <ul>
+                <li>2 places</li>
+                <li>3 placess</li>
+                <li>16 places</li>
+                <li>22 places</li>
+            </ul>
+        </div>
+
+        <div class="quatre">
+            <div class="voit">
+                <div class="photo">
+                    <img src="" alt="">
+                </div>
+                <div class="desc">
+                    <div class="info">
+                        <div class="m">2 places</div>
+                        <div class="m">2006</div>
+                    </div>
+                    <div class="lor"></div>
+                    <div class="price">200000$</div>
+                </div>
+            </div>
+            <div class="voit">
+                 <div class="photo"></div>
+                <div class="desc">
+                    <div class="info">
+                        <div class="m">5 places</div>
+                        <div class="m">2006</div>
+                    </div>
+                    <div class="lor"></div>
+                    <div class="price">200000$</div>
+                </div>
+            </div>
+            <div class="voit">
+                 <div class="photo"></div>
+                <div class="desc">
+                    <div class="info">
+                        <div class="m">22 places</div>
+                        <div class="m">2006</div>
+                    </div>
+                    <div class="lor"></div>
+                    <div class="price">200000$</div>
+                </div>
+            </div>
+            <div class="voit">
+                 <div class="photo"></div>
+                <div class="desc">
+                    <div class="info">
+                        <div class="m">Supra Mk4</div>
+                        <div class="m">2006</div>
+                    </div>
+                    <div class="lor"></div>
+                    <div class="price">200000$</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="why">
+            <div class="text">Why Choose us !?</div>
+            <div class="explane">
+                <div class="exa">
+                    <div class="logo"></div>
+                    <div class="infa">Service</div>
+                    <div class="avis"></div>
+                </div>
+ 
+          <div class="exa">
+                    <div class="logo"></div>
+                    <div class="infa">Quality</div>
+                    <div class="avis"></div>
+                </div>
+                  <div class="exa">
+                    <div class="logo"></div>
+                    <div class="infa">Faith</div>
+                    <div class="avis"></div>
+                </div>
+
+            </div>
+        </div>
+        <div id="contact">
+
+            <div class="contecontact">
+                <div class="uno">
+                    <ul>
+                        <li>Patrick Service</li>
+                        <li>Cars sercice</li>
+                        <li>Performance</li>
+                    </ul>
+                </div>
+                <div class="dos">
+                        <ul>
+                        <li> <a href="#head">Home</a></li>
+                        <li > <a href="#ser">Service</a></li>
+                        <li> <a href="#dif">Location</a></li>
+                        <li><a href="#why">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                      
+                    </ul>
+
+                </div>
+                <div class="tres">
+                      <ul>
+                        <li>Facebook</li>
+                        <li>WhatsApp</li>
+                        <li>Telegramm</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.tete{
+      /*background-color: rgb(201, 222, 250);*/
+      background-color: rgb(228, 240, 255);
+      width: 100vw;
+      height: 80vh;
+}
+.header{
+    font-size: 3.3rem;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 40px;
+}
+#head{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    width: 60%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+     border-top-right-radius: 30px;
+     margin-top: 90px;
+    border-bottom-right-radius: 30px;
+
+
+}
+ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    color: black;
+    font-weight: bold;
+    transition: all 0.75s ease-in-out;
+    padding:10px 20px ;
+     border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+     border-top-right-radius: 10px;
+         border-bottom-right-radius: 10px;
+         font-size: 1.5rem;
+
+}
+li:hover{
+    background-color: rgb(201, 222, 250);
+    transform: scale(1.1);
+}
+.search{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  
+    background: url("./sary/magnifying-glass.png");
+    background-position: center;
+    background-size: contain;
+    border: 3px solid rgb(85, 0, 255);
+}
+.image.img{
+    width: 100%;
+    height: 50%;
+    background: url("");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 270px;
+}
+.text{
+    font-size: 3.3rem;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+#ser{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.un{
+    background-color: aliceblue;
+    padding: 40px 90px;
+    border-radius: 20px;
+}
+.contedeux{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.deux{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.dr{
+    width: 40%;
+    height: 70%;
+    background-color:rgb(176, 208, 247);
+    border-radius: 30px;
+  padding: 50px;
+}
+.drr{
+    width: 40%;
+    height: 70%;
+    border-radius: 30px;
+  padding: 50px;
+    background-color:rgb(255, 215, 222);
+
+}
+.btn{
+    background-color: black;
+}
+.quatre{
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.voit{
+    width: 24%;
+    height: 80%;
+
+    border-radius: 20px;
+
+}
+.photo{
+    width: 100%;
+    height: 55%;
+    background: url("./sary/mk5.jpg");
+    background-position: center;
+background-size: contain;
+
+ border-top-left-radius: 10px;
+
+     border-top-right-radius: 10px;
+}
+.desc{
+    width: 89%;
+    height: 45%;
+    background-color: black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0 20px;
+
+ border-bottom-left-radius: 10px;
+
+     border-bottom-right-radius: 10px;
+}
+.info{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.m{
+    color: white;
+    font-size: 1.2rem;
+}
+
+#why{
+    width: 100%;
+    height: 40vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.explane{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.lor{
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.price{
+color: white;
+font-size: 1.1rem;
+margin-top: 20px;
+}
+.exa{
+  width: 25%;
+  height: 80%;
+  padding: 20px ;
+  border-radius: 20px;
+  border: 2px solid rgb(85, 0, 255);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.logo{
+    width: 70px ;
+    height: 70px;
+    border: 2px solid rgb(132, 71, 255);
+    border-radius: 50%;
+}
+.infa{
+    color:black;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.avis{
+   color:black;
+   font-size: 0.8rem;
+}
+#contact{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(201, 222, 250);
+    margin-top: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+div{
+    color: black;
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+.pp{
+    color: black;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+button{
+    padding: 20px 60px;
+    background-color: rgb(132, 71, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.2rem;
+}
+.contecontact{
+
+    width: 98%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.uno, .dos , .tres{
+    width: 20%;
+    height: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.uno ul{
+    flex-direction: column;
+}
+.dos ul{
+    flex-direction: column;
+}
+.tres ul{
+    flex-direction: column;
+}
